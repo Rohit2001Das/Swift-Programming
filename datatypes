@@ -1,0 +1,13 @@
+import UIKit
+
+var str:String = "Hello, playground"
+print (str)
+var a:Int = 2
+var b:Int = 1
+var c:Float = 3.4
+var d:Double = 13.9
+var e:Bool=true
+print(a+b)
+print(Int(c))
+print(Int(d))
+print(Int(round(d)))
