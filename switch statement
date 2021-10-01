@@ -1,0 +1,15 @@
+import UIKit
+
+var someCharecter:Character = "a"
+
+switch someCharecter {
+    
+case "a":
+    print("is an A")
+    
+case "b":
+    print("is an B")
+    
+default:
+    print("some fallback")
+}
