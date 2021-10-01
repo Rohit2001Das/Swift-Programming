@@ -1,0 +1,22 @@
+import UIKit
+
+var greeting = "Hello, playground"
+
+for index in 1...5  {
+    
+    var sum=1
+    sum+=index
+    print(sum)
+    
+}
+var counter = 5
+while counter > 0 {
+    
+    print("hello")
+    counter = counter - 1
+}
+repeat  {
+print("hello")
+counter = counter - 1
+}
+while counter>0
