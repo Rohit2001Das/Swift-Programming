@@ -1,0 +1,29 @@
+import UIKit
+
+class Blogpost {
+
+var title = ""
+var body = ""
+var author = ""
+var numberOfComments = 0
+    
+    func addComment()   {
+        numberOfComments += 1
+    }
+}
+
+let myPost = Blogpost()
+myPost.title = "Hello playground"
+myPost.author = "chris green"
+myPost.body = "hello"
+myPost.addComment()
+print(myPost.numberOfComments)
+
+let mySecondPost = Blogpost ()
+mySecondPost.title = "Hello Playground"
+mySecondPost.author = "John mayor"
+mySecondPost.body = " hello"
+mySecondPost.addComment()
+print(mySecondPost.numberOfComments)
+
+
